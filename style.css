@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.main {
+    border: 1px solid black;
+    align-items: center;
+    text-align: center;
+    min-height: 15rem;
+    width: 20rem;
+    margin: 10px;
+    background-image: url("./img/WhatsApp\ Image\ 2022-05-25\ at\ 5.08.57\ PM.jpeg");
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.733);
+    background-repeat: no-repeat;
+
+
+}
+
+.overall {
+    display: flex;
+    justify-content: center;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: white;
+}
+
+input {
+    border-radius: 20px;
+    width: 17rem;
+    height: 40px;
+    margin-top: 5rem;
+    background: none;
+    border: 1px solid rgba(255, 68, 0, 0.925);
+    text-align: right;
+    direction: ltr;
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+}
+::placeholder{
+    margin-right: 10px;
+}
+
+.button1 button {
+    width: 4rem;
+    height: 20px;
+}
+
+.button2 button {
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    border: 1px solid rgba(255, 68, 0, 0.925);
+    background-color: transparent;
+    color: rgba(255, 68, 0, 0.925);
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.button2 .del {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.butt p {
+    color: rgba(255, 255, 255, 0.466);
+}
+
+.button2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+
+
+}
+
+.butt {
+    margin-top: 3rem;
+
+}
+
+.button2 button:hover {
+    background-color: rgba(138, 130, 130, 0.589);
+    color: white;
+}
